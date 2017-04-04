@@ -1,0 +1,155 @@
+body {
+    padding:0;
+    margin:0;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url("47445380-beach-sunset.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 30px;
+    
+}
+#ladderhome a{
+    background-color: #ffaa23;
+    border-radius: 20px;
+    border-width: 10px ;
+    border-color: #ffaa23;
+    border-style: solid;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 15%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+#ladderhome a:Hover{
+    border-width: 15px;
+    background-color: #ffc366 ;
+    border-color: #ffc366;
+}
+#nonmenu a{
+    background-color: #ffaa23;
+    border-radius: 20px;
+    border-width: 10px ;
+    border-color: #ffaa23;
+    border-style: solid;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 47%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#nonmenu a:Hover{
+    border-width: 15px;
+    background-color: #ffc366 ;
+    border-color: #ffc366;
+}
+#HomePics{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#Signup a{
+    background-color: #ffaa23;
+    border-radius: 25px;
+    border-width: 20px ;
+    border-color: #ffaa23;
+    border-style: solid;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 47%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+#Signup a:Hover{
+    border-width: 25px;
+    background-color: #ffc366 ;
+    border-color: #ffc366;
+}
+h2 {
+    text-align: left;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 24px;
+    margin-left: 15%;
+    color: #ffffff;
+}
+p {
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 50px ;
+    border-color: rgba(0, 0, 0,0);
+    border-style: solid;
+    color: #ffffff;
+}
+#burger {
+    width: 35px;
+    height: 5px;
+    background-color:#000;
+    margin: 6px 0;
+
+
+}
+#nav {
+    background-color: #0168A3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav_wrapper {
+    text-indent: 3%;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #ffc366;
+    opacity: 0.9;
+    border: 5px;
+    border-color: #ffc366;
+
+}
+#nav ul li a, visited {
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #ffaa23;
+    border: 5px solid #0168A3;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #5E3B25;
+}
