@@ -8,7 +8,18 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin-top: 30px;
-    
+
+}
+form{
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 50px ;
+    border-color: rgba(0, 0, 0,0);
+    border-style: solid;
+    color: #ffffff;
+
 }
 #ladderhome a{
     background-color: #ffaa23;
